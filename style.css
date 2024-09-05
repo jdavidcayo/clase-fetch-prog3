@@ -1,0 +1,33 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #ecf3ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 90vw;
+    background: #fdfcfc;
+    border: 0.1rem solid #aaa;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0rem;
+}
+
+#userInfo {
+    border: 0.1rem solid #aaa;
+    border-radius: 0.5rem;
+    background: #fdfcfc;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+#userInfo img {
+    width: 100%;
+    border-radius: 0.5ems;
+}
